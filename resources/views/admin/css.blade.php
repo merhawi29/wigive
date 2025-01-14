@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Corona Admin</title>
+<title>Admin</title>
 <link rel="stylesheet" href="asset('css/bootstrap.min.css') ">
 
 <!-- plugins:css -->

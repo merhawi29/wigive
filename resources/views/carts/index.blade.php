@@ -13,8 +13,9 @@
         {{ session('error') }}
     </div>
 @endif
-    <div class="container h-100 py-5">
-      <div class="row d-flex justify-content-center align-items-center h-100">
+    <div class="container h-100 py-5 ">
+
+      <div class="row d-flex justify-content-center align-items-center h-100 mt-5"> ">
         <div class="col">
           <div class="table-responsive">
             <table class="table">
@@ -100,13 +101,12 @@
 
 
           </div>
-            <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-success btn-block btn-lg">
-                <div class="d-flex justify-content-between">
-                    <a href="{{ route('payment') }}">
-                    <span>Continue</span>
-                    </a>
-                </div>
-              </button>
+          <div class="col">
+            <div class="text-start mt-2 mt-sm-0">
+                <a href="{{ route('payment') }}" class="btn btn-success">
+                    <i class="mdi mdi-cart-outline me-1"></i> Continue </a>
+            </div>
+        </div>
             </div>
           @endif
         </div>

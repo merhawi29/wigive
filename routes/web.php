@@ -22,13 +22,16 @@ Route::get('/', function () {
 // });
 
 //admin
-Route::get('/adminn', [AdminController::class, 'index'])->name('adminn');
-Route::get('/product', [AdminController::class, 'show'])->name('product');
-Route::post('/product/store', [AdminController::class, 'store'])->name('product.store');
 
-Route::get('/product/edit/{id}', [AdminController::class, 'edit'])->name('product.edit');
-Route::post('/product/update/{id}', [AdminController::class, 'update'])->name('product.update');
-Route::delete('/product/delete/{id}', [AdminController::class, 'destroy'])->name('product.delete');
+    Route::middleware(['auth'])->group(function () {
+        Route::get('/adminn', [AdminController::class, 'index'])->name('adminn');
+        Route::get('/product', [AdminController::class, 'show'])->name('product');
+        Route::post('/product/store', [AdminController::class, 'store'])->name('product.store');
+        Route::get('/product/edit/{id}', [AdminController::class, 'edit'])->name('product.edit');
+        Route::post('/product/update/{id}', [AdminController::class, 'update'])->name('product.update');
+        Route::delete('/product/delete/{id}', [AdminController::class, 'destroy'])->name('product.delete');
+    });
+
 
 //product user
  Route::get('/products', [ProductController::class, 'index'])->name('products.index');
