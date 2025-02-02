@@ -17,11 +17,11 @@ class DatabaseSeeder extends Seeder
 
         User::factory()->create([
             'name' => 'User',
-            'email' => '12345678',
+            'email' => 'user@gmail.com',
         ]);
         User::factory()->create([
             'name' => 'Admin',
-            'email' => '12344321',
+            'email' => 'admin@gmail.com',
         ]);
     }
 }

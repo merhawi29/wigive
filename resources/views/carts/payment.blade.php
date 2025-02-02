@@ -26,19 +26,25 @@
                                                     <div class="col-lg-4">
                                                         <div class="mb-3">
                                                             <label class="form-label" for="billing-name">Name</label>
-                                                            <input type="text" class="form-control" id="billing-name" name="fullname" placeholder="Enter name">
+                                                            <input type="text" class="form-control" id="billing-name"
+                                                                name="fullname" placeholder="Enter name">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4">
                                                         <div class="mb-3">
-                                                            <label class="form-label" for="billing-email-address">Email Address</label>
-                                                            <input type="email" class="form-control" id="billing-email-address" name="email" placeholder="Enter email">
+                                                            <label class="form-label" for="billing-email-address">Email
+                                                                Address</label>
+                                                            <input type="email" class="form-control"
+                                                                id="billing-email-address" name="email"
+                                                                placeholder="Enter email">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4">
                                                         <div class="mb-3">
                                                             <label class="form-label" for="billing-phone">Phone</label>
-                                                            <input type="text" class="form-control" id="billing-phone" name="phone" placeholder="Enter Phone no.">
+                                                            <input type="text" class="form-control"
+                                                                id="billing-phone" name="phone"
+                                                                placeholder="Enter Phone no.">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -52,7 +58,8 @@
                                                     <div class="col-lg-4">
                                                         <div class="mb-4 mb-lg-0">
                                                             <label class="form-label">Country</label>
-                                                            <select class="form-control form-select" name="country" title="Country">
+                                                            <select class="form-control form-select" name="country"
+                                                                title="Country">
                                                                 <option value="0">Select Country</option>
                                                                 <option value="AF">Afghanistan</option>
                                                                 <option value="AL">Albania</option>
@@ -68,14 +75,17 @@
                                                     <div class="col-lg-4">
                                                         <div class="mb-4 mb-lg-0">
                                                             <label class="form-label" for="billing-city">City</label>
-                                                            <input type="text" class="form-control" id="billing-city" name="city" placeholder="Enter City">
+                                                            <input type="text" class="form-control" id="billing-city"
+                                                                name="city" placeholder="Enter City">
                                                         </div>
                                                     </div>
 
                                                     <div class="col-lg-4">
                                                         <div class="mb-0">
-                                                            <label class="form-label" for="zip-code">Zip / Postal code</label>
-                                                            <input type="text" class="form-control" id="zip-code" name="zip" placeholder="Enter Postal code">
+                                                            <label class="form-label" for="zip-code">Zip / Postal
+                                                                code</label>
+                                                            <input type="text" class="form-control" id="zip-code"
+                                                                name="zip" placeholder="Enter Postal code">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -100,17 +110,23 @@
                                             <div class="col-lg-4 col-sm-6">
                                                 <div data-bs-toggle="collapse">
                                                     <label class="card-radio-label mb-0">
-                                                        <input type="radio" name="address" id="info-address1" class="card-radio-input" checked="">
+                                                        <input type="radio" name="address" id="info-address1"
+                                                            class="card-radio-input" checked="">
                                                         <div class="card-radio text-truncate p-3">
                                                             <span class="fs-14 mb-4 d-block">Address 1</span>
                                                             <span class="fs-14 mb-2 d-block">Johnathan Deo</span>
-                                                            <span class="text-muted fw-normal text-wrap mb-1 d-block">109 Clarksburg Park Road Show Low, AZ 85901</span>
+                                                            <span
+                                                                class="text-muted fw-normal text-wrap mb-1 d-block">109
+                                                                Clarksburg Park Road Show Low, AZ 85901</span>
 
-                                                            <span class="text-muted fw-normal d-block">Mo. 012-345-6789</span>
+                                                            <span class="text-muted fw-normal d-block">Mo.
+                                                                012-345-6789</span>
                                                         </div>
                                                     </label>
                                                     <div class="edit-btn bg-light  rounded">
-                                                        <a href="{{ route('payment') }}" data-bs-toggle="tooltip" data-placement="top" title="" data-bs-original-title="Edit">
+                                                        <a href="{{ route('payment') }}" data-bs-toggle="tooltip"
+                                                            data-placement="top" title=""
+                                                            data-bs-original-title="Edit">
                                                             <i class="bx bx-pencil font-size-16"></i>
                                                         </a>
                                                     </div>
@@ -120,16 +136,22 @@
                                             <div class="col-lg-4 col-sm-6">
                                                 <div>
                                                     <label class="card-radio-label mb-0">
-                                                        <input type="radio" name="address" id="info-address2" class="card-radio-input">
+                                                        <input type="radio" name="address" id="info-address2"
+                                                            class="card-radio-input">
                                                         <div class="card-radio text-truncate p-3">
                                                             <span class="fs-14 mb-4 d-block">Address 2</span>
                                                             <span class="fs-14 mb-2 d-block">Bradley McMillian</span>
-                                                            <span class="text-muted fw-normal text-wrap mb-1 d-block">109 Clarksburg Park Road Show Low, AZ 85901</span>
-                                                            <span class="text-muted fw-normal d-block">Mo. 012-345-6789</span>
+                                                            <span
+                                                                class="text-muted fw-normal text-wrap mb-1 d-block">109
+                                                                Clarksburg Park Road Show Low, AZ 85901</span>
+                                                            <span class="text-muted fw-normal d-block">Mo.
+                                                                012-345-6789</span>
                                                         </div>
                                                     </label>
                                                     <div class="edit-btn bg-light  rounded">
-                                                        <a href="#" data-bs-toggle="tooltip" data-placement="top" title="" data-bs-original-title="Edit">
+                                                        <a href="#" data-bs-toggle="tooltip"
+                                                            data-placement="top" title=""
+                                                            data-bs-original-title="Edit">
                                                             <i class="bx bx-pencil font-size-16"></i>
                                                         </a>
                                                     </div>
@@ -157,7 +179,8 @@
                                         <div class="col-lg-3 col-sm-6">
                                             <div data-bs-toggle="collapse">
                                                 <label class="card-radio-label">
-                                                    <input type="radio" name="pay-method" id="pay-methodoption1" class="card-radio-input">
+                                                    <input type="radio" name="pay-method" id="pay-methodoption1"
+                                                        class="card-radio-input">
                                                     <span class="card-radio py-3 text-center text-truncate">
                                                         <i class="bx bx-credit-card d-block h2 mb-3"></i>
                                                         Credit / Debit Card
@@ -169,7 +192,8 @@
                                         <div class="col-lg-3 col-sm-6">
                                             <div>
                                                 <label class="card-radio-label">
-                                                    <input type="radio" name="pay-method" id="pay-methodoption2" class="card-radio-input">
+                                                    <input type="radio" name="pay-method" id="pay-methodoption2"
+                                                        class="card-radio-input">
                                                     <span class="card-radio py-3 text-center text-truncate">
                                                         <i class="bx bxl-paypal d-block h2 mb-3"></i>
                                                         Paypal
@@ -181,7 +205,8 @@
                                         <div class="col-lg-3 col-sm-6">
                                             <div>
                                                 <label class="card-radio-label">
-                                                    <input type="radio" name="pay-method" id="pay-methodoption3" class="card-radio-input" checked="">
+                                                    <input type="radio" name="pay-method" id="pay-methodoption3"
+                                                        class="card-radio-input" checked="">
 
                                                     <span class="card-radio py-3 text-center text-truncate">
                                                         <i class="bx bx-money d-block h2 mb-3"></i>
@@ -207,7 +232,7 @@
                 <div class="col">
                     <div class="text-end mt-2 mt-sm-0">
                         <a href="#" class="btn btn-success">
-                            <i class="mdi mdi-cart-outline me-1"></i> Procced </a>
+                            <i class="mdi mdi-cart-outline me-1"></i> processed </a>
                     </div>
                 </div> <!-- end col -->
             </div> <!-- end row-->
@@ -219,78 +244,80 @@
                         <h5 class="font-size-16 mb-0">Order Summary <span class="float-end ms-2">#MN0124</span></h5>
                     </div>
                     <div class="table-responsive">
-                        @foreach ($parsedCart as $item )
+                        @foreach ($parsedCart as $item)
+                            <table class="table table-centered mb-0 table-nowrap">
+                                <thead>
+                                    <tr>
+                                        <th class="border-top-0" style="width: 110px;" scope="col">Product</th>
+                                        <th class="border-top-0" scope="col">Product name</th>
+                                        <th class="border-top-0" scope="col">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><img src="{{ asset('Image/' . $item['url']) }}"
+                                                alt="{{ $item['name'] }}" title="product-img"
+                                                class="avatar-lg rounded"></th>
+                                        <td>
+                                            <h5 class="font-size-16 text-truncate"><a href="#"
+                                                    class="text-dark">{{ $item['name'] }}</a></h5>
+                                            <p class="text-muted mb-0">
+                                                <i class="bx bxs-star text-warning"></i>
+                                                <i class="bx bxs-star text-warning"></i>
+                                                <i class="bx bxs-star text-warning"></i>
+                                                <i class="bx bxs-star text-warning"></i>
+                                                <i class="bx bxs-star-half text-warning"></i>
+                                            </p>
+                                            <p class="text-muted mb-0 mt-1">$ {{ $item['price'] }} x
+                                                {{ $item['quantity'] }}</p>
+                                        </td>
+                                        <td>$ {{ $item['price'] * $item['quantity'] }}</td>
+                                    </tr>
 
+                                    <tr>
+                                        <td colspan="2">
+                                            <h5 class="font-size-14 m-0">Sub Total :</h5>
+                                        </td>
+                                        <td>
+                                            $ {{ $total }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <h5 class="font-size-14 m-0">Discount :</h5>
+                                        </td>
+                                        <td>
+                                            - $ {{ $total * 0.07 }}
+                                        </td>
+                                    </tr>
 
-                        <table class="table table-centered mb-0 table-nowrap">
-                            <thead>
-                                <tr>
-                                    <th class="border-top-0" style="width: 110px;" scope="col">Product</th>
-                                    <th class="border-top-0" scope="col">Product name</th>
-                                    <th class="border-top-0" scope="col">Price</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row"><img src="{{ asset('Image/' . $item['url']) }}" alt="{{ $item['name'] }}" title="product-img" class="avatar-lg rounded"></th>
-                                    <td>
-                                        <h5 class="font-size-16 text-truncate"><a href="#" class="text-dark">{{ $item['name'] }}</a></h5>
-                                        <p class="text-muted mb-0">
-                                            <i class="bx bxs-star text-warning"></i>
-                                            <i class="bx bxs-star text-warning"></i>
-                                            <i class="bx bxs-star text-warning"></i>
-                                            <i class="bx bxs-star text-warning"></i>
-                                            <i class="bx bxs-star-half text-warning"></i>
-                                        </p>
-                                        <p class="text-muted mb-0 mt-1">$ {{ $item['price'] }} x {{ $item['quantity'] }}</p>
-                                    </td>
-                                    <td>$ {{ $item['price'] * $item['quantity'] }}</td>
-                                </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <h5 class="font-size-14 m-0">Shipping Charge :</h5>
+                                        </td>
+                                        <td>
+                                            $ {{ $total * 0.03 }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <h5 class="font-size-14 m-0">Estimated Tax :</h5>
+                                        </td>
+                                        <td>
+                                            ${{ $total * 0.01 }}
+                                        </td>
+                                    </tr>
 
-                                <tr>
-                                    <td colspan="2">
-                                        <h5 class="font-size-14 m-0">Sub Total :</h5>
-                                    </td>
-                                    <td>
-                                        $ {{ $total }}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                        <h5 class="font-size-14 m-0">Discount :</h5>
-                                    </td>
-                                    <td>
-                                        - $ {{ $total * 0.07 }}
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td colspan="2">
-                                        <h5 class="font-size-14 m-0">Shipping Charge :</h5>
-                                    </td>
-                                    <td>
-                                        $ {{ $total * 0.03 }}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                        <h5 class="font-size-14 m-0">Estimated Tax :</h5>
-                                    </td>
-                                    <td>
-                                        ${{ $total * 0.01 }}
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-light">
-                                    <td colspan="2">
-                                        <h5 class="font-size-14 m-0">Total:</h5>
-                                    </td>
-                                    <td>
-                                        $ {{ $total + ($total * 0.03) + ($total * 0.01) - ($total * 0.07) }}
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                    <tr class="bg-light">
+                                        <td colspan="2">
+                                            <h5 class="font-size-14 m-0">Total:</h5>
+                                        </td>
+                                        <td>
+                                            $ {{ $total + $total * 0.03 + $total * 0.01 - $total * 0.07 }}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         @endforeach
                     </div>
                 </div>

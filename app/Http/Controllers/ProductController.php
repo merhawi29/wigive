@@ -11,16 +11,14 @@ class ProductController extends Controller
 {
     public function index()
     {
-        $categories = Category::all(); // Fetch categories from the database
         $producted = Product::all();
-        return view('products.index', compact('categories', 'producted'));
+        return view('products.index', compact( 'producted'));
     }
     public function show()
     {
 
-        $categories = Category::all(); // Fetch categories from the database
         $producted = Product::all();
-        return view('products.action', compact('categories', 'producted'));
+        return view('products.action', compact( 'producted'));
     }
 
 

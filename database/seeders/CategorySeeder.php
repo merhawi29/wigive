@@ -11,12 +11,12 @@ class CategorySeeder extends Seeder
     {
         Category::create([
             'name' => 'Category 1',
-            'thumbnail' => 'category1.jpg',
+            'thumbnail' => 'beef.jpg',
         ]);
 
         Category::create([
             'name' => 'Category 2',
-            'thumbnail' => 'category2.jpg',
+            'thumbnail' => 'boneless.jpg',
         ]);
     }
 }
